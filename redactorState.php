@@ -1,5 +1,6 @@
 <?php
     include_once ('model/article.php');
+    include_once('model/logs.php');
     $id = $_GET['id'];
     $oldState = selectStateContent($id);
     $params = ['title' => '', 'content' => ''];
@@ -7,6 +8,8 @@
     if ($_POST['title']) {
         $params['title'] = $_POST['title'];
         $params['content'] = $_POST['content'];
+        $l = addLogs($params['title'], $params['content']);
+        $log = write($l);
         $update = insertStateUpdate($params, $id);
         if ($update) {
             header('Location:index.php');

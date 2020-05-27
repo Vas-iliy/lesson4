@@ -1,8 +1,11 @@
 <?php
 include_once ('model/article.php');
+include_once('model/logs.php');
 $id = $_GET['id'];
 $state = selectStateContent($id);
 
+$l = logs();
+$log = write($l);
 ?>
 
 

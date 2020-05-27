@@ -24,16 +24,16 @@ function insertState ($params) {
     return true;
 }
 
-function insertStateUpdate ($params) {
-    $sql = "UPDATE articles SET title = :title, content = :content, newTime = current_timestamp, redact = '1'";
+function insertStateUpdate ($params, $id) {
+    $sql = "UPDATE articles SET title = :title, content = :content, newTime = current_timestamp, redact = '1' WHERE id = '$id'";
     $data = dbQuery($sql, $params);
 
     return true;
 }
 
 function deleteState ($id) {
-    $sql = "DELETE FROM articles WHERE id = :id";
-    $data = dbQuery($sql, $id);
+    $sql = "DELETE FROM articles WHERE id = '$id'";
+    $data = dbQuery($sql, null);
 
     return true;
 }

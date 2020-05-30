@@ -18,18 +18,6 @@ function logs () {
     return $logi;
 }
 
-function addLogs ($article, $content) {
-    $logs = logs();
-
-    foreach ($logs as $key => $log) {
-            unset($logs[$key]);
-    }
-
-    $logs += ['newState' => 'Новая статья: ' . $article , 'newText' => ' $$ Текст статьи:' . $content, 'n' => "\n"];
-    return $logs;
-}
-
-
 function write ($log) {
     $dir = 'logs'; // Директория для создания страниц
     $dt = date('Y:m:d');

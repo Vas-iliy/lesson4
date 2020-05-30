@@ -4,14 +4,14 @@
     include_once('core/arr.php');
     $id = (int)$_GET['id'];
     $oldState = selectStateContent($id);
+    $l = logs();
+    $log = write($l);
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $params = extractFields($_POST, ['title', 'content']);
-        $l = addLogs($params['title'], $params['content']);
         $validate = validate($params);
 
         if (empty($validate)) {
-            $log = write($l);
             $update = insertStateUpdate($params, $id);
             header('Location:index.php');
             die();

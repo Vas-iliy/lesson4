@@ -15,6 +15,11 @@ function logs () {
     if ($logi['referer'] == null) {
         $logi['uri'] = $uri;
     }
+
+    $pr = pr($logi);
+    if ($pr) {
+        $logi['uri'] = $logi['uri'] . 'Подозрительная хуйня';
+    }
     return $logi;
 }
 
@@ -35,6 +40,11 @@ function write ($log) {
         }
     }
     return true;
+}
+
+function pr ($url) {
+    $url = implode($url);
+    return preg_match('/[%]/', $url);
 }
 
 

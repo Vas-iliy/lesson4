@@ -1,13 +1,17 @@
 <?php
 include_once('model/article.php');
 include_once('core/logs.php');
-$id = $_GET['id'];
+$id = (int)$_GET['id'];
 $state = selectStateContent($id);
 
 $l = logs();
 $log = write($l);
 
-include('views/v_state.php');
+if (thisState($id)) {
+    include('views/v_state.php');
+} else {
+    include ('views/errors/v_404.php');
+}
 
 
 

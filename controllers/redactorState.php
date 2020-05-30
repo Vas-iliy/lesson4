@@ -2,7 +2,7 @@
     include_once('model/article.php');
     include_once('core/logs.php');
     include_once('core/arr.php');
-    $id = $_GET['id'];
+    $id = (int)$_GET['id'];
     $oldState = selectStateContent($id);
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -22,4 +22,9 @@
         $validate = [];
     }
 
-include('views/v_redactorState.php');
+    if (thisState($id)) {
+        include('views/v_redactorState.php');
+    } else {
+        include ('views/errors/v_404.php');
+    }
+

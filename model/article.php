@@ -52,3 +52,11 @@ function validate (&$params) {
     $params['content'] = htmlspecialchars($params['content']);
     return $errors;
 }
+
+function thisState($id) {
+    $sql = "SELECT id FROM articles WHERE id = '$id'";
+    $data = dbQuery($sql, null);
+    $data = $data->fetch();
+
+    return $data;
+}

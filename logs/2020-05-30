@@ -35,3 +35,11 @@
 2020:05:30 04:37:48 && 127.0.0.1 && http://lesson4/newState.php && http://lesson4/index.php
 2020:05:30 04:40:08 && 127.0.0.1 && http://lesson4/state.php?id=7 && http://lesson4/index.php
 2020:05:30 04:40:12 && 127.0.0.1 && http://lesson4/deleteState.php?id=7 && http://lesson4/state.php?id=7
+2020:05:30 04:49:13 && 127.0.0.1 && http://lesson4/index.php?c=newState && http://lesson4/
+2020:05:30 04:49:16 && 127.0.0.1 && http://lesson4/index.php?c=newState && http://lesson4/
+2020:05:30 04:49:46 && 127.0.0.1 && http://lesson4/index.php?c=state&id=5 && http://lesson4/
+2020:05:30 04:50:58 && 127.0.0.1 && http://lesson4/index.php?c=state&id=5 && http://lesson4/
+2020:05:30 04:51:11 && 127.0.0.1 && http://lesson4/index.php?c=state&id=5 && http://lesson4/
+2020:05:30 04:51:37 && 127.0.0.1 && http://lesson4/index.php?c=state&id=5 && http://lesson4/index.php
+2020:05:30 04:51:39 && 127.0.0.1 && http://lesson4/index.php?c=deleteState&id=5 && http://lesson4/index.php?c=state&id=5
+2020:05:30 04:51:40 && 127.0.0.1 && http://lesson4/index.php?c=state&id=4 && http://lesson4/index.php

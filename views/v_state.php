@@ -7,8 +7,8 @@
     <?endforeach;?>
 
     <hr>
-    <a href="redactorState.php?id=<?=$id?>">Редактировать</a>
-    <a href="deleteState.php?id=<?=$id?>">Удалить</a>
+    <a href="index.php?c=redactorState&id=<?=$id?>">Редактировать</a>
+    <a href="index.php?c=deleteState&id=<?=$id?>">Удалить</a>
     <hr>
     <a href="index.php">На главную</a>
 </div>

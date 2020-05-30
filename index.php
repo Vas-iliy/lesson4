@@ -1,6 +1,6 @@
 <?php
-include_once ('model/article.php');
-$states = selectState();
 
-include ('views/v_index.php');
 
+$cname = $_GET['c'] ?? 'index';
+$patch = "controllers/$cname.php";
+include_once ($patch);

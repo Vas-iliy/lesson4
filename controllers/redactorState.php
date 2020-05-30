@@ -1,7 +1,7 @@
 <?php
-    include_once ('model/article.php');
+    include_once('model/article.php');
     include_once('core/logs.php');
-    include_once ('core/arr.php');
+    include_once('core/arr.php');
     $id = $_GET['id'];
     $oldState = selectStateContent($id);
 
@@ -22,4 +22,4 @@
         $validate = [];
     }
 
-include ('views/v_redactorState.php');
+include('views/v_redactorState.php');

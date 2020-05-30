@@ -1,29 +1,25 @@
 <?php
     include_once ('model/article.php');
-    include_once('model/logs.php');
+    include_once('core/logs.php');
+    include_once ('core/arr.php');
     $id = $_GET['id'];
     $oldState = selectStateContent($id);
-    $params = ['title' => '', 'content' => ''];
 
-    if ($_POST['title']) {
-        $params['title'] = $_POST['title'];
-        $params['content'] = $_POST['content'];
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $params = extractFields($_POST, ['title', 'content']);
         $l = addLogs($params['title'], $params['content']);
-        $log = write($l);
-        $update = insertStateUpdate($params, $id);
-        if ($update) {
+        $validate = validate($params);
+
+        if (empty($validate)) {
+            $log = write($l);
+            $update = insertStateUpdate($params, $id);
             header('Location:index.php');
+            die();
         }
+    } else {
+
+        $params = ['title' => '', 'content' => ''];
+        $validate = [];
     }
 
-?>
-
-<div>
-    <?foreach ($oldState as $state):?>
-        <form method="post">
-            <input type="text" name="title" value="<?=$state['title']?>" required><br>
-            <textarea name="content" id="" cols="30" rows="10"><?=$state['content']?></textarea><br>
-            <input type="submit">
-        </form>
-    <?endforeach;?>
-</div>
+include ('views/v_redactorState.php');

@@ -1,5 +1,5 @@
 <?php
-include_once ('db.php');
+include_once('core/db.php');
 
 function selectState () {
     $sql = "SELECT id, title FROM articles ORDER BY newTime DESC ";
@@ -36,4 +36,19 @@ function deleteState ($id) {
     $data = dbQuery($sql, null);
 
     return true;
+}
+
+function validate (&$params) {
+    $errors =[];
+    if (mb_strlen($params['title'], 'UTF-8') < 3) {
+        $errors[] = 'Слишком короткое название статьи';
+    }
+
+    if (mb_strlen($params['content'], 'UTF-8') < 10) {
+        $errors[] = 'Слишком короткий текст статьи';
+    }
+
+    $params['title'] = htmlspecialchars($params['title']);
+    $params['content'] = htmlspecialchars($params['content']);
+    return $errors;
 }

@@ -30,8 +30,7 @@ function addLogs ($article, $content) {
 }
 
 
-function write ($l) {
-    $log = $l;
+function write ($log) {
     $dir = 'logs'; // Директория для создания страниц
     $dt = date('Y:m:d');
     $dt =str_replace(':', '-', $dt);

@@ -1,11 +1,6 @@
 <?php
-    include_once('model/article.php');
-    include_once('core/logs.php');
-    include_once('core/arr.php');
     $id = (int)$_GET['id'];
     $oldState = selectStateContent($id);
-    $l = logs();
-    $log = write($l);
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $params = extractFields($_POST, ['title', 'content']);

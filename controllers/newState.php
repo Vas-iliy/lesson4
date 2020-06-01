@@ -1,10 +1,4 @@
 <?php
-include_once('model/article.php');
-include_once('core/logs.php');
-include_once('core/arr.php');
-
-$l = logs();
-$log = write($l);
 
 if ($_POST['title']) {
     $params = extractFields($_POST, ['title', 'content']);

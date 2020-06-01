@@ -1,5 +1,4 @@
 <?php
-include_once('core/db.php');
 
 function selectState () {
     $sql = "SELECT id, title FROM articles ORDER BY newTime DESC ";

@@ -15,4 +15,8 @@ if ($_POST['title']) {
     $validate = [];
 }
 
-include('views/v_newState.php');
+$pageTitle = 'Добавить статью';
+$pageContent = template('v_newState', [
+    'validate' => $validate,
+    'params' => $params
+]);

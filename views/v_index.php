@@ -1,5 +1,4 @@
-<a href="index.php?c=newState">Добавить статью</a>
-<hr>
+
 <div>
     <?foreach ($states as $state):?>
         <div>

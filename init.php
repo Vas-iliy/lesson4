@@ -1,6 +1,7 @@
 <?php
 
 include_once('model/article.php');
+include_once ('model/cat.php');
 
 include_once('core/logs.php');
 include_once('core/arr.php');

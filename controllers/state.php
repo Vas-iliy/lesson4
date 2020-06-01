@@ -4,9 +4,13 @@ $id = (int)$_GET['id'];
 $state = selectStateContent($id);
 
 if (thisState($id)) {
-    include('views/v_state.php');
+    $pageTitle = 'Статья';
+    $pageContent = template('v_state', [
+        'state' => $state,
+        'id' => $id
+    ]);
 } else {
-    include ('views/errors/v_404.php');
+    $pageContent = template('errors/v_404');
 }
 
 

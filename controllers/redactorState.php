@@ -18,8 +18,12 @@
     }
 
     if (thisState($id)) {
-        include('views/v_redactorState.php');
+        $pageTitle ='Редакторовать';
+        $pageContent = template('v_redactorState', [
+            'validate' => $validate,
+            'oldState' => $oldState
+        ]);
     } else {
-        include ('views/errors/v_404.php');
+        $pageContent = template('errors/v_404');
     }
 

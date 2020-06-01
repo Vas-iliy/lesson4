@@ -37,6 +37,13 @@ function deleteState ($id) {
     return true;
 }
 
+function state_cat ($id) {
+    $sql = "SELECT id, title FROM articles JOIN cats USING (id_cat) WHERE id_cat = '$id'";
+    $data = dbQuery($sql, null);
+    $data = $data->fetchAll();
+    return $data;
+}
+
 function validate (&$params) {
     $errors =[];
     if (mb_strlen($params['title'], 'UTF-8') < 3) {

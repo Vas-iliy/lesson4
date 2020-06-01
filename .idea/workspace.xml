@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb52ffc-7de5-4b68-9cd9-b3a7293463e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/system.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/cats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/cat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/v_cats.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/newState.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/newState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/redactorState.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redactorState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/state.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/state.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-06-01" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2020-06-01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/errors/v_404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/errors/v_404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/standart/v_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/standart/v_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_redactorState.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_redactorState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_state.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_state.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +78,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../l6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,13 +88,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\lessons\Lavrik\lesson4" />
+      <recent name="D:\server\OpenServer\domains\lesson4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\server\OpenServer\domains\lesson4\controllers" />
       <recent name="D:\server\OpenServer\domains\lesson4\core" />
       <recent name="D:\server\OpenServer\domains\lesson4\model" />
-      <recent name="D:\server\OpenServer\domains\lesson4" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\server\OpenServer\domains\lesson4" />
     </key>
   </component>
@@ -113,7 +126,7 @@
       <workItem from="1590846248006" duration="3231000" />
       <workItem from="1590953243319" duration="292000" />
       <workItem from="1590955426343" duration="906000" />
-      <workItem from="1591034262348" duration="1720000" />
+      <workItem from="1591034262348" duration="3880000" />
     </task>
     <servers />
   </component>

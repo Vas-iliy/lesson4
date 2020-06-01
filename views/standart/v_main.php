@@ -19,13 +19,13 @@
     <div class="container">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="index.php">Домой</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?c=add">Add</a>
+                <a class="nav-link" href="index.php?c=newState">Добавить статью</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?c=contacts">Contacts</a>
+                <a class="nav-link" href="index.php?c=cats">Категории</a>
             </li>
         </ul>
     </div>

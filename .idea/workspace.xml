@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8fb52ffc-7de5-4b68-9cd9-b3a7293463e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/logs.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/logs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/2020-05-30" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2020-05-30" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +64,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../registrationsite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -109,6 +108,9 @@
       <updated>1590583075745</updated>
       <workItem from="1590583077872" duration="13089000" />
       <workItem from="1590799388068" duration="10552000" />
+      <workItem from="1590846248006" duration="3231000" />
+      <workItem from="1590953243319" duration="292000" />
+      <workItem from="1590955426343" duration="906000" />
     </task>
     <servers />
   </component>

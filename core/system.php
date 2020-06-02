@@ -11,3 +11,15 @@ function template ($patch, $vars = []) {
     include ($standartTemplateFullPatch);
     return ob_get_clean();
 }
+
+function parsUrl ($url) {
+    $url = $_GET['querysystemurl'] ?? '';
+    $params = explode('/', $url);
+    $cnt = count($params);
+
+    if ($params[$cnt-1] === '') {
+        unset($params[$cnt-1]);
+    }
+
+    return $params;
+}

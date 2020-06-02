@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title><?=$title?></title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/main.css">
 </head>
 <body>
 <header class="site-header">
@@ -19,13 +19,13 @@
     <div class="container">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Домой</a>
+                <a class="nav-link" href="<?=BASE_URL?>">Домой</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?c=newState">Добавить статью</a>
+                <a class="nav-link" href="<?=BASE_URL?>newState">Добавить статью</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?c=cats">Категории</a>
+                <a class="nav-link" href="<?=BASE_URL?>cats">Категории</a>
             </li>
         </ul>
     </div>

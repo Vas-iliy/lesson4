@@ -1,5 +1,7 @@
 <?php
 
+const BASE_URL = '/Lavrik/lesson4/';
+
 include_once('model/article.php');
 include_once ('model/cat.php');
 

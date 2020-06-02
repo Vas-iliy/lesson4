@@ -7,6 +7,6 @@
     <?endforeach;?>
 
     <hr>
-    <a href="index.php?c=redactorState&id=<?=$id?>">Редактировать</a>
-    <a href="index.php?c=deleteState&id=<?=$id?>">Удалить</a>
+    <a href="<?=BASE_URL?>redactorState/<?=$id?>">Редактировать</a>
+    <a href="<?=BASE_URL?>deleteState/<?=$id?>">Удалить</a>
 </div>

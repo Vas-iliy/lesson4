@@ -92,3 +92,16 @@
 2020:06:01 23:12:55 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=state&id=6 && http://lessons/Lavrik/lesson4/index.php?c=cats&id=5
 2020:06:01 23:12:58 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=deleteState&id=6 && http://lessons/Lavrik/lesson4/index.php?c=state&id=6
 2020:06:01 23:12:59 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php && http://lessons/Lavrik/lesson4/index.php?c=state&id=6
+2020:06:01 23:18:07 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php && http://lessons/Lavrik/lesson4/index.php?c=state&id=6
+2020:06:01 23:18:11 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=cats && http://lessons/Lavrik/lesson4/index.php
+2020:06:01 23:19:23 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=cats&id=5 && http://lessons/Lavrik/lesson4/index.php
+2020:06:01 23:24:32 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=newState && http://lessons/Lavrik/lesson4/index.php?c=cats&id=5
+2020:06:01 23:24:33 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php && http://lessons/Lavrik/lesson4/index.php?c=newState
+2020:06:01 23:24:34 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=cats && http://lessons/Lavrik/lesson4/index.php
+2020:06:01 23:24:35 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=newState && http://lessons/Lavrik/lesson4/index.php?c=cats
+2020:06:01 23:24:36 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php && http://lessons/Lavrik/lesson4/index.php?c=newState
+2020:06:01 23:24:39 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=newState && http://lessons/Lavrik/lesson4/index.php
+2020:06:01 23:24:40 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=cats && http://lessons/Lavrik/lesson4/index.php?c=newState
+2020:06:01 23:24:40 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php && http://lessons/Lavrik/lesson4/index.php?c=cats
+2020:06:01 23:24:41 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=newState && http://lessons/Lavrik/lesson4/index.php
+2020:06:01 23:24:42 && 127.0.0.1 && http://lessons/Lavrik/lesson4/index.php?c=cats && http://lessons/Lavrik/lesson4/index.php?c=newState

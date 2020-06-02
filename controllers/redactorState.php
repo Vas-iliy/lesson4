@@ -1,5 +1,5 @@
 <?php
-    $id = (int)$_GET['id'];
+    $id = (int)URL_PARAMS[1];
     $oldState = selectStateContent($id);
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {

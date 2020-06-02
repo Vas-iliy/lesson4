@@ -4,7 +4,7 @@
         <div>
             <hr>
             <h2><?=$state['title']?></h2>
-            <a href="index.php?c=state&id=<?=$state['id']?>">Узнать больше</a>
+            <a href="<?=BASE_URL?>state/<?=$state['id']?>">Узнать больше</a>
             <hr>
         </div>
     <?endforeach;?>

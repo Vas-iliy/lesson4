@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb52ffc-7de5-4b68-9cd9-b3a7293463e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/cats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/cat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/v_cats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/e404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/newState.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/newState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/cats.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/cats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/deleteState.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/deleteState.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/redactorState.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redactorState.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/state.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/state.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/2020-06-01" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2020-06-01" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/errors/v_404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/errors/v_404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/standart/v_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/standart/v_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_cats.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_cats.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/v_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_redactorState.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_redactorState.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/v_state.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_state.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_state_cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_state_cat.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +63,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="lesson4: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="articles: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesson4: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cats: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -126,7 +133,8 @@
       <workItem from="1590846248006" duration="3231000" />
       <workItem from="1590953243319" duration="292000" />
       <workItem from="1590955426343" duration="906000" />
-      <workItem from="1591034262348" duration="3880000" />
+      <workItem from="1591034262348" duration="9631000" />
+      <workItem from="1591067773331" duration="5438000" />
     </task>
     <servers />
   </component>

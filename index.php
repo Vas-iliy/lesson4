@@ -1,7 +1,9 @@
 <?php
 include_once ('init.php');
 
-$cname = $_GET['c'] ?? 'index';
+define('URL_PARAMS', parsUrl($_GET['querysystemurl'] ?? ''));
+
+$cname = URL_PARAMS[0] ?? 'index';
 $patch = "controllers/$cname.php";
 $pageTitle = 'Ошибка 404';
 $pageContent = '';
@@ -9,7 +11,7 @@ $pageContent = '';
 if (checkControllerName($cname) && file_exists($patch)) {
     include_once ($patch);
 } else {
-    template('errors/v_404');
+    $pageContent = template('errors/v_404');
 }
 
 $html = template('standart/v_main', [

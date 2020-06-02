@@ -1,5 +1,5 @@
 <?php
-$id = $_GET['id'];
+$id = URL_PARAMS[1];
 $state_cat = state_cat($id);
 
 $pageTitle = 'Статьи категории';

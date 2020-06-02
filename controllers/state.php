@@ -1,6 +1,6 @@
 <?php
 
-$id = (int)$_GET['id'];
+$id = (int)URL_PARAMS[1];
 $state = selectStateContent($id);
 
 if (thisState($id)) {

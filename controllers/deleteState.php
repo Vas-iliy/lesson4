@@ -1,10 +1,11 @@
 <?php
 
-$id =(int) $_GET['id'];
+$id =(int) URL_PARAMS[1];
 
 if ($id) {
     $delete = deleteState($id);
-    header('Location:index.php');
+    $url = BASE_URL;
+    header("Location:$url");
 }
 
 

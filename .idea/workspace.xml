@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb52ffc-7de5-4b68-9cd9-b3a7293463e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/e404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/cats.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/cats.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/deleteState.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/deleteState.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/redactorState.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redactorState.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/state.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/state.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/system.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2020-06-01" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2020-06-01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/errors/v_404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/errors/v_404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/standart/v_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/standart/v_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_cats.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_cats.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_state.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_state.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_state_cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_state_cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-06-02" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2020-06-02" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +124,16 @@
       <workItem from="1590953243319" duration="292000" />
       <workItem from="1590955426343" duration="906000" />
       <workItem from="1591034262348" duration="9631000" />
-      <workItem from="1591067773331" duration="5438000" />
+      <workItem from="1591067773331" duration="10997000" />
+      <workItem from="1591119796562" duration="37000" />
+      <workItem from="1591163430281" duration="1007000" />
+      <workItem from="1591164686286" duration="2479000" />
+      <workItem from="1591274731489" duration="1874000" />
+      <workItem from="1591281013692" duration="67000" />
+      <workItem from="1591281487188" duration="112000" />
+      <workItem from="1591284612635" duration="244000" />
+      <workItem from="1591623347387" duration="2061000" />
+      <workItem from="1591632085487" duration="275000" />
     </task>
     <servers />
   </component>

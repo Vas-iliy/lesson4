@@ -12,6 +12,3 @@ if (thisState($id)) {
 } else {
     $pageContent = template('errors/v_404');
 }
-
-
-

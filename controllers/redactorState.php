@@ -8,7 +8,7 @@
 
         if (empty($validate)) {
             $update = insertStateUpdate($params, $id);
-            header('Location:index.php');
+            header('Location:'. BASE_URL);
             die();
         }
     } else {

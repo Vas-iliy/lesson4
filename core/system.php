@@ -13,7 +13,6 @@ function template ($patch, $vars = []) {
 }
 
 function parsUrl ($url) {
-    $url = $_GET['querysystemurl'] ?? '';
     $params = explode('/', $url);
     $cnt = count($params);
 

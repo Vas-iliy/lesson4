@@ -42,20 +42,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="lesson4: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="lesson4: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="articles: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="lesson4: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="cats: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -70,7 +56,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../projects/train/writeSite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,7 +117,9 @@
       <workItem from="1591632085487" duration="275000" />
       <workItem from="1591901744118" duration="1779000" />
       <workItem from="1592175482574" duration="214000" />
-      <workItem from="1593066760378" duration="296000" />
+      <workItem from="1593066760378" duration="9580000" />
+      <workItem from="1593242073475" duration="566000" />
+      <workItem from="1593245467706" duration="740000" />
     </task>
     <servers />
   </component>

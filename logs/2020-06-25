@@ -1,0 +1,7 @@
+2020:06:25 09:51:52 && 127.0.0.1 && http://lessons/Lavrik/lesson4/ && http://lessons/Lavrik/
+2020:06:25 10:40:25 && 127.0.0.1 && http://lessons/Lavrik/lesson4/ && http://lessons/Lavrik/
+2020:06:25 10:40:28 && 127.0.0.1 && http://lessons/Lavrik/lesson4/newState && http://lessons/Lavrik/lesson4/
+2020:06:25 10:40:30 && 127.0.0.1 && http://lessons/Lavrik/lesson4/cats && http://lessons/Lavrik/lesson4/newState
+2020:06:25 10:40:32 && 127.0.0.1 && http://lessons/Lavrik/lesson4/ && http://lessons/Lavrik/lesson4/cats
+2020:06:25 10:40:33 && 127.0.0.1 && http://lessons/Lavrik/lesson4/cats/2 && http://lessons/Lavrik/lesson4/
+2020:06:25 10:40:35 && 127.0.0.1 && http://lessons/Lavrik/lesson4/ && http://lessons/Lavrik/lesson4/cats/2
